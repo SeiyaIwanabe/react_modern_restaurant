@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutUs.scss';
-import { images } from '../../constants';
+import { Images } from '../../constants';
 
 export const AboutUs = () => {
     return (
@@ -9,14 +9,14 @@ export const AboutUs = () => {
             id="about"
         >
             <div className="app__aboutus-overlay flex__center">
-                <img src={images.G} alt="G_overlay" />
+                <img src={Images.G} alt="G_overlay" />
             </div>
 
             <div className="app__aboutus-content flex__center">
                 <div className="app__aboutus-content_about">
                     <h1 className="headtext__cormorant">About Us</h1>
                     <img
-                        src={images.spoon}
+                        src={Images.spoon}
                         alt="about_spoon"
                         className="spoon__img"
                     />
@@ -31,13 +31,13 @@ export const AboutUs = () => {
                 </div>
 
                 <div className="app__aboutus-content_knife flex__center">
-                    <img src={images.knife} alt="about_knife" />
+                    <img src={Images.knife} alt="about_knife" />
                 </div>
 
                 <div className="app__aboutus-content_history">
                     <h1 className="headtext__cormorant">Our History</h1>
                     <img
-                        src={images.spoon}
+                        src={Images.spoon}
                         alt="about_spoon"
                         className="spoon__img"
                     />

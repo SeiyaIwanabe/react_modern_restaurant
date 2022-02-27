@@ -1,6 +1,6 @@
 import React from 'react';
 import { SubHeading } from '../Header/SubHeading';
-import { images, data } from '../../constants';
+import { Images, awards } from '../../constants';
 import './Laurels.scss';
 
 const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
@@ -23,14 +23,14 @@ export const Laurels = () => {
                 <h1 className="headtext__cormorant">Our Laurels</h1>
 
                 <div className="app__laurels_awards">
-                    {data.awards.map((award) => (
+                    {awards.map((award) => (
                         <AwardCard award={award} key={award.title} />
                     ))}
                 </div>
             </div>
 
             <div className="app__wrapper_img">
-                <img src={images.laurels} alt="laurels_img" />
+                <img src={Images.laurels} alt="laurels_img" />
             </div>
         </div>
     );

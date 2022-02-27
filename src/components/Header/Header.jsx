@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.scss';
-import { images } from '../../constants';
+import { Images } from '../../constants';
 import { SubHeading } from './SubHeading';
 
 export const Header = () => {
@@ -19,7 +19,7 @@ export const Header = () => {
                 </button>
             </div>
             <div className="app__header__img">
-                <img src={images.welcome} alt="header_img" />
+                <img src={Images.welcome} alt="header_img" />
             </div>
         </div>
     );

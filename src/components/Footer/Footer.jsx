@@ -3,7 +3,7 @@ import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
 
 import { FooterOverlay } from './FooterOverlay';
 import { Newsletter } from './Newsletter';
-import { images } from '../../constants';
+import { Images } from '../../constants';
 import './Footer.scss';
 
 export const Footer = () => {
@@ -23,13 +23,13 @@ export const Footer = () => {
                 </div>
 
                 <div className="app__footer-links_logo">
-                    <img src={images.gericht} alt="footer_logo" />
+                    <img src={Images.gericht} alt="footer_logo" />
                     <p className="p__opensans">
                         &quot;The best way to find yourself is to lose yourself
                         in the service of others.&quot;
                     </p>
                     <img
-                        src={images.spoon}
+                        src={Images.spoon}
                         className="spoon__img"
                         style={{ marginTop: 15 }}
                         alt=""

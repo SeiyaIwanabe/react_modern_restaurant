@@ -6,7 +6,7 @@ import {
 } from 'react-icons/bs';
 
 import { SubHeading } from '../Header/SubHeading';
-import { images } from '../../constants';
+import { Images } from '../../constants';
 import './Gallery.scss';
 
 export const Gallery = () => {
@@ -42,10 +42,10 @@ export const Gallery = () => {
             <div className="app__gallery-images">
                 <div className="app__gallery-images_container" ref={scrollRef}>
                     {[
-                        images.gallery01,
-                        images.gallery02,
-                        images.gallery03,
-                        images.gallery04,
+                        Images.gallery01,
+                        Images.gallery02,
+                        Images.gallery03,
+                        Images.gallery04,
                     ].map((image, index) => (
                         <div
                             className="app__gallery-images_card flex__center"
